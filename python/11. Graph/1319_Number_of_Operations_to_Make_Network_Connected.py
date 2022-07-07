@@ -38,7 +38,7 @@ class Solution:
     
     # Modified: To connect n computers, we need at least n - 1 connections 
     # simplyfied to a classic graph problem
-    class Solution:
+class Solution:
     def makeConnected(self, n: int, connections: List[List[int]]) -> int:
 
         if len(connections) < n - 1: return -1
